@@ -8,7 +8,7 @@
 
 /* debug and eyes relax */
 body{
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(228, 218, 218);
 }
 
 
@@ -27,13 +27,14 @@ body{
 
 /* HEADER-TOP */
 .header-top{
-    height: 50px;
+    /* height: 50px; */
     background-color: rgb(136, 202, 240);
     
 }
 
 /* LIST OF LINKS */
 ul.nav {
+    /* debug */
     list-style-type: none ;
     width: 50%;
 }
@@ -41,23 +42,31 @@ ul.nav {
 
 /* CONTAINER-TOP */
 .header-top .container {
+    /* debug */
     background-color: rgb(189, 189, 37);
     border: 1px black dashed; 
-    height: 30px; 
+    /* height: 30px;  */
           
+}
+
+/* container blu, father of pink block */
+#pinkcontainer {
+    height: 250px;
 }
 
 /* MENU LINK */
 .flex-nav{
-display: flex;
+    /* debug */
+    display: flex;
     gap: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
     
 }
 
 /* LOGO HEADER */
 .logo {
+    /* debug */
     width: 15%;
     line-height: 30px;
     padding-left: 10px;
@@ -66,6 +75,7 @@ display: flex;
 
 /* LOGIN OPTION HEADER  */
 .action {
+    /* debug */
     width: 15%;
     line-height: 30px;
     padding-right: 10px;
@@ -73,6 +83,72 @@ display: flex;
     text-align: right;
 }
 
+.article {
+    /* debug */
+    height: 200px;
+    width: 70%;
+    background-color: rgb(204, 60, 156);
+}
 
+.main-header {
+    /* debug */
+    background-color: rgb(4, 4, 100);
+    height: 250px;
+    box-shadow: 0 2px 5px rgb(136, 202, 240);
+}
 
+.blu{
+    /* debug */
+    height: 200px;
+    width: calc(2/3 * 800px);
+    background-color: blue;
+}
 
+.pink{
+    /* debug */
+    height: 200px;
+    width: calc(1/3 * 800px);
+    background-color: pink;
+}
+
+.flex-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+
+.flex-main-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+
+.main-section-reverse {
+    background-color: rgb(102, 98, 98);
+}
+
+.green {
+    /* debug */
+    background-color: green;
+    height: 400px;
+    width: 800px;
+    
+}
+
+.greenblock {
+    background-color: rgb(102, 98, 98);
+    
+    
+}
+
+.flex-green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
