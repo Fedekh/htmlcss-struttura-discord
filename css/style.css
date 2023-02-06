@@ -110,7 +110,8 @@ ul.nav {
     width: calc(1/3 * 800px);
     background-color: pink;
 }
-
+ 
+/* FLEX CLASS FOR MAIN SECTIONS NO REVERSE */
 .flex-main {
     display: flex;
     justify-content: center;
@@ -118,7 +119,7 @@ ul.nav {
     height: 250px;
 
 }
-
+ /* FLEX CLASS FOR REVERSE BLOCK */
 .flex-main-reverse {
     display: flex;
     flex-direction: row-reverse;
@@ -127,7 +128,7 @@ ul.nav {
     height: 250px;
 
 }
-
+ /* COLOUR FOR REVERSE BLOCK */
 .main-section-reverse {
     background-color: rgb(102, 98, 98);
 }
@@ -140,15 +141,83 @@ ul.nav {
     
 }
 
+/* GREENBLOCK DEBUG */
 .greenblock {
-    background-color: rgb(102, 98, 98);
-    
-    
+    background-color: rgb(102, 98, 98);    
 }
 
+/* FLEX CLASS FOR GREEN BLOCK */
 .flex-green {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 500px;
+}
+
+/* FLEX CLASS FOR TOP FOOTER */
+.flex-top-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 250px;
+    border: 2px dashed black; /* Non so perche non me lo prende su live server, rimangono solo i bordi laterali, provo un altra strada per i bordi tratteggiati */
+}
+
+/* PINK BLOCK */
+#pinkblock {
+background-color: salmon;
+    width: calc(800px * 2/5);
+    height: 250px;
+    border: 1px dashed black;
+}
+
+/* AQUAMARINE BLOCKS */
+.aquamarine {
+    background-color: aquamarine;
+    width: calc(800px / 5);
+    height: 250px;
+    border-right: 1px dashed white;
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+}
+
+/* MAIN FOOTER TOP */
+.footer-top {
+    height: 300px;
+    background-color: rgb(65, 64, 64);
+    border-bottom: 1px white solid;
+    padding-top: 10px;
+}
+
+/* MAIN FOOTER BOT */
+.footer-bot {
+    height: 70px;
+    background-color: rgb(65, 64, 64);
+    border-bottom: 1px white solid
+}
+
+
+/* CLASS FLEX BOT FOOTER    */
+.flex-bot-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+ 
+/* BACKGROUND BOTTOM FOOTER */
+.back-footer-bottom {
+    background-color: aqua;
+    width: 800px;
+    height: 40px;
+}
+
+/* FLEX CLASS MAIN BOT FOOTER */
+.last-flex {
+    display: flex;
+    align-items: flex-end;
+ 
 }
