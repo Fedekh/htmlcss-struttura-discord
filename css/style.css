@@ -18,7 +18,61 @@ body{
     margin: 0 auto;
 }
 
-.header-top{
-    background-color: blue;
+.flex-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+/* HEADER-TOP */
+.header-top{
+    height: 50px;
+    background-color: rgb(136, 202, 240);
+    
+}
+
+/* LIST OF LINKS */
+ul.nav {
+    list-style-type: none ;
+    width: 50%;
+}
+
+
+/* CONTAINER-TOP */
+.header-top .container {
+    background-color: rgb(189, 189, 37);
+    border: 1px black dashed; 
+    height: 30px; 
+          
+}
+
+/* MENU LINK */
+.flex-nav{
+display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* LOGO HEADER */
+.logo {
+    width: 15%;
+    line-height: 30px;
+    padding-left: 10px;
+    border-right: 1px dashed black;
+}
+
+/* LOGIN OPTION HEADER  */
+.action {
+    width: 15%;
+    line-height: 30px;
+    padding-right: 10px;
+    border-left: 1px dashed black;
+    text-align: right;
+}
+
+
+
 
